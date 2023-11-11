@@ -133,23 +133,31 @@
     margin-top: auto;
     margin-bottom: auto;
 }
-.download a img{
-    width: 30px;
-    margin: auto;
-    padding: 3px;
+.download a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
 }
 .download{
     display: flex;
     justify-content: center;
     margin-top: 15px;
-}
-.download button{
-    padding: 5px;
-    text-align: center;
-    font-size: 12px;
+    background-color: rgb(73, 122, 228);
+    width: fit-content;
+    padding: 3px;
+    margin-left: auto;
+    margin-right: auto;
     cursor: pointer;
-    border-radius: 5px;
-    border: 1px solid;
-    font-weight: bolder;
-    background-color: rgb(81, 81, 241);
+
+}
+.download a img{
+    width: 20px;
+    margin: 3px;
+    padding-bottom: 6px;
+}
+.download a p{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 10px;
 }

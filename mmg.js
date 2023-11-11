@@ -28,3 +28,6 @@ function call(){
 function mess(){
     alert(" will be redirected to message with your contact")
 }
+function loada(){
+    alert("NO ALBUM AVAILABLE TO DOWNLOAD")
+}
