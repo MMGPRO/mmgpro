@@ -145,6 +145,8 @@ span{
 .dolas p{
   text-align: center;
   margin: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
 }
 .dolas a{
   text-align: center;
