@@ -31,9 +31,3 @@ function mess(){
 function loada(){
     alert("NO ALBUM AVAILABLE TO DOWNLOAD")
 }
-
-import countapi from 'countapi-js';
-
-countapi.visits().then((result) => {
-    console.log(result.value);
-});
