@@ -229,47 +229,21 @@ body{
   background-color: rgb(252, 202, 136);
   padding-bottom: 100px;
 }
-
-
-
-.website-counter {
+.counters{
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  margin-top: 10px;
 }
-
-/* Styles for website counter container */
-.website-counter {
-  background-color: #ff4957;
-  height: fit-content;
+.counters p{
+  border: 1px solid;
+  margin: 4px;
+  padding: 2px;
+  font-size: 10px;
+}
+#visits{
+  background-color: rgb(207, 74, 74);
+  color: white;
   width: fit-content;
-  color: white;
-  font-weight: 700;
-  font-size: 25px;
-  padding: 7px;
-  margin-top: 12px;
-  text-align: center;
-  font-weight: bold;
-  font-family: sans-serif;
-}
-
-/* Styles for reset button */
-#reset {
-  margin-top: 20px;
-  background-color: #008cba;
-  cursor: pointer;
-  font-size: 18px;
-  padding: 8px 20px;
-  color: white;
-  border: 0;
-}
-.kounter{
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  margin-top: 20px;
-}
-.kounter p{
-  margin: 10px;
+  height: fit-content;
+  padding: 5px;
 }
